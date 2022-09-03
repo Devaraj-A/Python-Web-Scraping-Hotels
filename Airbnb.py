@@ -33,6 +33,3 @@ while True:
 
     response = requests.get(next_full)
     extract = BeautifulSoup(response.text, 'lxml')
-
-
-
